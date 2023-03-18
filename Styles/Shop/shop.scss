@@ -3,6 +3,15 @@
         display: none !important;
     }
 }
+.sticky{
+
+    .header-navbar-items {
+        ul {
+            display: flex !important;
+        }
+    }
+}
+
 
 .title-top {
     padding: 30px 0;
@@ -165,3 +174,4 @@
         }
     }
 }
+

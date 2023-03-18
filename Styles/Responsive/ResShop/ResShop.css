@@ -5,4 +5,9 @@
   .filter {
     display: none !important;
   }
+}
+@media screen and (max-width: 769px) {
+  .list-feature-items .list-feature-item:last-child {
+    display: none;
+  }
 }/*# sourceMappingURL=ResShop.css.map */

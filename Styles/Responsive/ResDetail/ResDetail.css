@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .content-items {
+    flex-direction: column !important;
+  }
+}/*# sourceMappingURL=ResDetail.css.map */

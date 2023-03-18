@@ -101,6 +101,9 @@
   .footer-bottom .mfn-inline-editor {
     text-align: center;
   }
+  .header-menu-wrapper {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 991px) {
   .footer-content {
