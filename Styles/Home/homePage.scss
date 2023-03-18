@@ -1,0 +1,478 @@
+.carousel-wrapper-1 {
+    .carousel-item {
+        img {
+            width: 30% !important;
+        }
+    }
+}
+
+.feature-catalog-wrapper {
+    margin-top: 70px;
+}
+
+.feature-catalog-list-items,
+.hot-deals-wrapper,
+.top-rated-product-wrapper,
+.inspirations-wrapper,
+.blog-posts-wrapper,
+.section-title {
+    h6 {
+        background-position: 50% 50%;
+        color: #afb5b6;
+        font-family: Plus Jakarta Sans;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        margin: 10px 0;
+    }
+    h2 {
+        color: #433779;
+        font-size: 38px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+}
+.inspirations-wrapper {
+    h2 {
+        color: #ffffff;
+    }
+}
+
+.feature-catalog-items {
+    .feature-catalog-item {
+        .feature-catalog__item {
+            position: relative;
+            padding: 7px;
+            img {
+                background-color: rgba(242, 242, 242, 0.5);
+            }
+            .info {
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+            }
+        }
+    }
+    .feature-catalog-item:first-child {
+        margin-right: 10px;
+    }
+}
+
+.slide-product-1 {
+    background-color: #433779;
+    .slide-product-1-items {
+        padding: 20px 0;
+
+        .carousel-item__content {
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            > a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .mcb-column-inner {
+                position: absolute;
+                top: 0;
+                h2 {
+                    color: #615692;
+                    background-position: center center;
+                    font-size: 10em;
+                    line-height: 1.2em;
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+            img {
+                z-index: 9;
+            }
+
+            .product__info {
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h3 {
+                    background-position: 50% 50%;
+                    font-size: 35px;
+                    font-weight: 600;
+                    line-height: 36px;
+                    text-align: center;
+                }
+                bdi {
+                    display: inline;
+                    font-weight: 700;
+                    line-height: 24px;
+                    text-align: center;
+                }
+                a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                a {
+                    text-decoration: none;
+                    .btn-buy-product {
+                        margin: 20px 0;
+                        background-color: #ee6352;
+                        border-radius: 4px;
+                        color: #ffffff;
+                        display: inline-block;
+                        font-weight: 700;
+                        line-height: 16px;
+                        padding: 16px 40px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        button {
+            span {
+                width: 64px;
+                height: 64px;
+                align-items: center;
+                border-radius: 50%;
+                color: #433779;
+                display: flex;
+                justify-content: center;
+                line-height: 24px;
+                border: 2px solid #ffffff;
+                i {
+                    font-size: 25px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+.hot-deals-content {
+    padding: 20px 0;
+    span {
+        color: #433779;
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: -1px;
+        line-height: 36px;
+        text-align: center;
+        flex-direction: column;
+
+        p {
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 20px;
+        }
+        &::after {
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color: #ee6352;
+            bottom: 0;
+            left: 0;
+        }
+        + span {
+            padding-left: 20px;
+        }
+    }
+}
+
+.hot-deals-product-item,
+.top-product-item {
+    .top-product__item,
+    .hot-deals__item {
+        flex-direction: column;
+        border: 1px solid rgba(242, 242, 242, 0.5);
+        padding: 0;
+        // margin: 0px 10px;
+        align-items: center;
+        .hot-deals-product__image,
+        .top-product__image {
+            background-color: #f4f4f4;
+            img {
+                transition: all 0.5s ease;
+            }
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .hot-deals__info,
+        .top-product__info {
+            flex-direction: column;
+            color: #433779;
+            padding: 15px 0;
+            a {
+                color: #433779;
+                display: inline;
+                line-height: 24px;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 400;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            bdi {
+                display: inline;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: center;
+                text-decoration: line-through !important;
+            }
+            ins {
+                bdi {
+                    text-decoration: none !important;
+                }
+            }
+
+            .button_size_2 {
+                margin: 20px 0;
+                border: 2px solid #ececec;
+                border-radius: 6px;
+                color: #433779;
+                display: inline-block;
+                font-weight: 600;
+                line-height: 16px;
+                padding: 16px 32px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.watch-video-wrapper {
+    margin-top: 50px;
+    background-image: url("https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/01/befurniturestore2-section-bg2.webp");
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    height: 800px;
+    position: relative;
+    .bac-overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(50deg, #433779 25%, rgba(0, 0, 0, 0) 72%);
+    }
+
+    .watch-video-items {
+        z-index: 999;
+        position: relative;
+        justify-content: space-between;
+        .watch-video-item:first-child {
+            .title-1,
+            .title-2 {
+                color: #ffffff;
+            }
+            .title-1 {
+                display: flex;
+                align-items: center;
+                h2 {
+                    background-position: 50% 50%;
+                    color: #ffffff;
+                    font-size: 38px;
+                    font-weight: 700;
+                    letter-spacing: -1px;
+                    line-height: 46px;
+                }
+
+                h2:last-child {
+                    padding: 5px 15px;
+                    border: 1px solid #ffffff;
+                    border-radius: 10px;
+                    margin-left: 20px;
+                }
+            }
+            .title-2 {
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 30px;
+                position: relative;
+                padding-top: 10px;
+                margin: 15px 0;
+                &::before {
+                    content: "";
+                    height: 1px;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    position: absolute;
+                    background-color: rgba(242, 242, 242, 0.5);
+                }
+            }
+        }
+        .watch-video-item:last-child {
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 72px;
+            color: #433779;
+            display: flex;
+            line-height: 24px;
+            padding: 32px 48px;
+            h5 {
+                color: #433779;
+                font-size: 19px;
+                font-weight: 600;
+                line-height: 25px;
+                text-align: right;
+                margin: 0;
+            }
+            i {
+                align-items: center;
+                border-radius: 50%;
+                color: #433779;
+                display: flex;
+                justify-content: center;
+                line-height: 0px;
+                margin: 0px 0px 0px 20px;
+                border: 2px solid #433779;
+                padding: 20px;
+            }
+        }
+    }
+}
+.inspirations-wrapper {
+    background-color: #433779;
+    background-image: url(https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-section-bg3.svg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-top: 100px;
+    height: 630px;
+    justify-content: flex-start !important;
+    margin: 100px 0;
+    position: relative;
+    a {
+        background-color: #ffffff;
+        border-color: #ffffff;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 2px;
+        color: #433779;
+        display: inline-block;
+        font-weight: 700;
+        line-height: 16px;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        &:hover {
+            background-color: transparent;
+            color: #ffffff;
+        }
+    }
+    .inspirations-items {
+        position: absolute;
+        bottom: -60px;
+    }
+}
+
+.blog-posts-items {
+    .blog-posts-item {
+        .blog-posts__image {
+            overflow: hidden;
+            img {
+                transition: all 0.3s ease;
+            }
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .blog-posts__info {
+            color: #433779;
+            span {
+                line-height: 24px;
+            }
+            h5 {
+                padding: 10px 0;
+            }
+        }
+    }
+}
+
+.section-wrapper {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(https://themes.muffingroup.com/be/furniturestore2/wp-content/uploads/2023/02/befurniturestore2-section-bg4.webp);
+    background-size: cover;
+    background-position: top center;
+    height: 524px;
+    position: relative;
+    .bac-overlay {
+        background-image: linear-gradient(90deg, #ffffff 35%, rgba(0, 0, 0, 0) 35%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+    .section-title {
+        position: relative;
+        z-index: 999;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: -30%;
+        padding: 40px;
+        h2 {
+            font-weight: 600;
+        }
+        a {
+            background-color: #433779;
+            border-radius: 4px;
+            color: #ffffff;
+            display: inline-block;
+            font-weight: 700;
+            line-height: 18px;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 20px 0;
+        }
+    }
+}
+
+.top-slider-wrapper {
+    height: 570px;
+    background-color: #f8f6f5;
+    .carousel-inner {
+        height: 570px;
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-item {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .carousel-item__info {
+            width: 20%;
+            h4 {
+                color: #433779;
+                font-size: 40px;
+            }
+            span {
+                font-weight: 500;
+                padding: 30px 0;
+            }
+            .tag-a-url {
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 20px;
+                padding: 20px 30px;
+                background-color: #ee6352;
+                color: #ffffff;
+                border-radius: 10px;
+            }
+        }
+    }
+}
